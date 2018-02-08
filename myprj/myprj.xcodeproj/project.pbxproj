@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8B0E0924202C2E830063358F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E0923202C2E830063358F /* AppDelegate.swift */; };
-		8B0E0926202C2E830063358F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E0925202C2E830063358F /* ViewController.swift */; };
 		8B0E0929202C2E830063358F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0E0927202C2E830063358F /* Main.storyboard */; };
 		8B0E092B202C2E830063358F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0E092A202C2E830063358F /* Assets.xcassets */; };
 		8B0E092E202C2E830063358F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0E092C202C2E830063358F /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		8B0E0920202C2E830063358F /* myprj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myprj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0E0923202C2E830063358F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B0E0925202C2E830063358F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B0E0928202C2E830063358F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B0E092A202C2E830063358F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B0E092D202C2E830063358F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,6 +75,7 @@
 		8B0E0917202C2E830063358F = {
 			isa = PBXGroup;
 			children = (
+				8B0E0951202C31620063358F /* Classes */,
 				8B0E0922202C2E830063358F /* myprj */,
 				8B0E0937202C2E830063358F /* myprjTests */,
 				8B0E0942202C2E830063358F /* myprjUITests */,
@@ -98,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				8B0E0923202C2E830063358F /* AppDelegate.swift */,
-				8B0E0925202C2E830063358F /* ViewController.swift */,
 				8B0E0927202C2E830063358F /* Main.storyboard */,
 				8B0E092A202C2E830063358F /* Assets.xcassets */,
 				8B0E092C202C2E830063358F /* LaunchScreen.storyboard */,
@@ -123,6 +121,62 @@
 				8B0E0945202C2E830063358F /* Info.plist */,
 			);
 			path = myprjUITests;
+			sourceTree = "<group>";
+		};
+		8B0E0951202C31620063358F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B0E0952202C31620063358F /* Follow */,
+				8B0E0953202C31620063358F /* Home */,
+				8B0E0954202C31620063358F /* Live */,
+				8B0E0955202C31620063358F /* Main */,
+				8B0E0956202C31620063358F /* Room */,
+				8B0E0957202C31620063358F /* Tools */,
+			);
+			name = Classes;
+			path = myprj/Classes;
+			sourceTree = "<group>";
+		};
+		8B0E0952202C31620063358F /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		8B0E0953202C31620063358F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8B0E0954202C31620063358F /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		8B0E0955202C31620063358F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8B0E0956202C31620063358F /* Room */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		8B0E0957202C31620063358F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +313,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0E0926202C2E830063358F /* ViewController.swift in Sources */,
 				8B0E0924202C2E830063358F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
